@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CafeCMU.Module")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c19f1ad82dc27a3c0f0203d6d54c16ab42f8ebd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e393a454af590995cf091a0e12889736155ee87")]
 [assembly: System.Reflection.AssemblyProductAttribute("CafeCMU.Module")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CafeCMU.Module")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]

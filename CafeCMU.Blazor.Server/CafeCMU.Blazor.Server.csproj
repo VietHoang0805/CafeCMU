@@ -23,4 +23,7 @@
     <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="22.2" />
     <PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="22.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CafeCMU.Module\CafeCMU.Module.csproj" />
+  </ItemGroup>
 </Project>
