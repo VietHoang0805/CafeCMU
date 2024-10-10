@@ -1,0 +1,135 @@
+{
+  "version": 2,
+  "dgSpecHash": "knIaz/Tas7o=",
+  "success": false,
+  "projectFilePath": "H:\\CafeCMU\\Cafe\\Cafe.Module\\Cafe.Module.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Persistent.BaseImpl.Xpo"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Validation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Persistent.Base"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Security.Xpo"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Xpo"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.ConditionalAppearance"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Objects"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Scheduler.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Xpo"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "Microsoft.Extensions.Options"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "NETStandard.Library"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "Microsoft.Win32.Registry"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.ComponentModel.Annotations"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.Reflection.Emit"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.Reflection.Emit.Lightweight"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "version": 2,
+  "dgSpecHash": "g46AH9B5UXE=",
+  "success": false,
+  "projectFilePath": "H:\\CafeCMU\\Cafe\\Cafe.Blazor.Server\\Cafe.Blazor.Server.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2.Blazor"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Blazor"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Security.Xpo"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.Validation.Blazor"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.AspNetCore.Reporting"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Blazor.Reporting.JSBasedControls.BlazorServer"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Blazor.Reporting.JSBasedControls.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Persistent.Base"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Printing.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Reporting.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Web.Reporting.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.AspNetCore.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.AspNetCore.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.AspNetCore.Resources"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.DataAccess"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Drawing"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "DevExpress.Office.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "Newtonsoft.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "NETStandard.Library"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
+      "libraryId": "System.Reflection.Emit"
+    }
+  ]
+}
