@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2de23d0b-069f-4ea3-be64-14fa6836b2a0" namespace="Cafe.Module.Cafe" dataBaseShemaInfo="H4sIAAAAAAAEAMWU32/aMBDH3yftf4h4JnF+klCZVC10VbWtQoVOe3WSC1hLbGQ7QP/7OSSkhNJWe9pb7nPfk+/OXwdf78vC2IKQlLPJwLHswXX89Qu+JRIWiguyggeWc0OrmLzay2wyWCu1uUJot9tZO8/iYoVc23bQ758/FukaSjLoxPRzsUmZVISlMNCnGgZekqQAWR95iI/kBBzRIykhXhC2WZMSo1fUqe5YzWIlKsCoDbrkjMoaPG8yoiDOSSG1qA877X1Fs4csDkYjCEZBbkLohaYfeWMzSpPUzIKxbye+DyPPxagVd8VTXlQlk70B3sU6Uc/QJOMlsMUcoxPSU34037/OeDqnmyY+cSAyU89LTT/MbXOc+KEZOokTRJ5D8tB+M6cuR5dmukTb2+pIG79KcO08yOaCpwdooAb/amwaz2B7t98IkNKaEUWsreta7tBo05M6sjzLHhrTqlCVgAmDSglSDI15lRQ0/Q4vS/4H2CSJoswJAz8LbRv8McHoeMThvGlBpARZX8BT1W0X32S6Ncjpvu2rQYsq76EnKPkWzoUNPddO9WuLn1m6JmwFmd5ZHTerudQD1pvZgFD0P/f2Thv4HhgIba8pL0tgSrYefYN74hlIutKf36i2wllFP3com0EBCm6k5CklSl/ZseZC4lDwWBVFbbNbWJMt5UK7KCfaH/qBnWf0/w+d/QDjvyFVhjEpBQAA" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="22.2.3.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="22.2.3.0" name="Cafe" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="9fc12963-95af-48be-b2c2-55b6b5a651b1" namespace="Cafe.Module.BusinessObjects.Cafe" dataBaseShemaInfo="H4sIAAAAAAAEAMVTXU/CMBR9N/E/LHvGdUMISLoR2NQYlRBA42vZ7rbGriVtt+G/t2xgwofx0bfec87NPbk9F4+3BbMqkIoK7tue49rj4PoKT4mCpRaSZPDEU2EZFVejrUp8O9d6M0KormunvnWEzFDXdT308fqyjHMoiP0jpn+LbyhXmvAYbDPVsvCKrBmoZiRqkZ0LSOZSxEfwe2s5iKC6324kKOVERBOn6vYcr2PtaX9XOX3H7VhhyXQpwedQaklYx5qXa0bjZ/haiU/g/no4TLxBv5cMXBd6dwSjw4hmXsiIUqBmpIBFyaABDTxJjDVI6Xbvq4WWZXoELaAQFZwKW/RUG5rNB288zgnPIMGoqRsL6JIHbDazAanpP3v7xQZ+BA6SaAhFUQDXKtCyBIzO4CNxBIpm5vlATRhOOo65pi0CBhomSomYEm2+7NBzgWgaZiVju6BNIScVFdKkKCUmHxidMeYW0MkxBN84+c1sNQMAAA==" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="24.1.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="24.1.5.0" name="Cafe" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
   <classes>
-    <dataBaseObjectModelHasClasses Id="b2cbf718-ba3d-410c-a51f-1d6b1982d5c2">
-      <xpObject Id="566e565f-e737-4839-8cbc-d5940b44e632" name="Sanpham" baseClass="XPObject" userFileName="Sanpham" designerFileName="Sanpham.Designer" className="Sanpham" virtualName="Sanpham">
-        <fields>
-          <generalXpObjectHasFields Id="2e39c66f-328a-4730-aa95-a205bcdc05ba">
-            <field Id="2cb4a1e8-c33c-47f0-9b47-71b15831af70" name="TenSP" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
-          </generalXpObjectHasFields>
-        </fields>
-      </xpObject>
+    <dataBaseObjectModelHasClasses Id="88f9e270-af83-4ef2-9281-0575986d68f2">
+      <xpObject Id="635b47cb-dda8-4325-a8e2-99594f0f562e" name="GeneralXpObject1" baseClass="XPObject" virtualName="GeneralXpObject1" />
     </dataBaseObjectModelHasClasses>
   </classes>
 </dataBaseObjectModel>

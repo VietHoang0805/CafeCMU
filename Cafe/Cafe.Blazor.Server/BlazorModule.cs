@@ -30,6 +30,8 @@ public sealed class CafeBlazorModule : ModuleBase {
     }
     public override void Setup(XafApplication application) {
         base.Setup(application);
+        // Uncomment this code to store the shared model differences (administrator settings in Model.XAFML) in the database.
+        // For more information, refer to the following topic: https://docs.devexpress.com/eXpressAppFramework/113698/
         //application.CreateCustomModelDifferenceStore += Application_CreateCustomModelDifferenceStore;
         application.CreateCustomUserModelDifferenceStore += Application_CreateCustomUserModelDifferenceStore;
     }

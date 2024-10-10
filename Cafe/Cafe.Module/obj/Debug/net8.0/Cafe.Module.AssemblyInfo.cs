@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cafe.Module")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c31871c9d55cfe8bf6ff2633bea2012be5633783")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72f7c9dcd77a7db7296e4897b3b7c41200141698")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cafe.Module")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cafe.Module")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]

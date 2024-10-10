@@ -1,135 +1,135 @@
 {
   "version": 2,
-  "dgSpecHash": "knIaz/Tas7o=",
+  "dgSpecHash": "p8cbwBlZsE4=",
   "success": false,
   "projectFilePath": "H:\\CafeCMU\\Cafe\\Cafe.Module\\Cafe.Module.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Viet\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.identity.client\\4.61.3\\microsoft.identity.client.4.61.3.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.61.3\\microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.34.0\\microsoft.identitymodel.jsonwebtokens.6.34.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.identitymodel.logging\\6.34.0\\microsoft.identitymodel.logging.6.34.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.34.0\\microsoft.identitymodel.tokens.6.34.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.34.0\\system.identitymodel.tokens.jwt.6.34.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\Viet\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": [
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.Persistent.BaseImpl.Xpo"
+      "message": "Unable to find a stable package DevExpress.Persistent.BaseImpl.Xpo with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.Persistent.BaseImpl.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.Validation"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.Validation with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.Validation",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.Security with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.CodeAnalysis"
+      "message": "Unable to find a stable package DevExpress.ExpressApp with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.Persistent.Base"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.CodeAnalysis with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.CodeAnalysis",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.Security.Xpo"
+      "message": "Unable to find a stable package DevExpress.Persistent.Base with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.Persistent.Base",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.Xpo"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.Security.Xpo with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.Security.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.ReportsV2"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.Xpo with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.Xpo",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.ConditionalAppearance"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.ReportsV2 with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.ReportsV2",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.ExpressApp.Objects"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.ConditionalAppearance with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.ConditionalAppearance",
+      "targetGraphs": [
+        "net8.0"
+      ]
     },
     {
-      "code": "NU1301",
+      "code": "NU1103",
       "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.Data"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.Scheduler.Core"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "DevExpress.Xpo"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "Microsoft.Extensions.Options"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "NETStandard.Library"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "System.Drawing.Common"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "Microsoft.Win32.Registry"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "System.ComponentModel.Annotations"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "System.Reflection.Emit"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "System.Reflection.Emit.Lightweight"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "The local source 'H:\\DevExpress 24.1\\Components\\Offline Packages' doesn't exist.",
-      "libraryId": "System.Text.Encoding.CodePages"
+      "message": "Unable to find a stable package DevExpress.ExpressApp.Objects with version (>= 24.1.0)\r\n  - Found 1 version(s) in DevExpress 24.1 Local [ Nearest version: 24.1.6-pre-24252 ]\r\n  - Found 0 version(s) in Microsoft Visual Studio Offline Packages\r\n  - Found 0 version(s) in C:\\Program Files\\dotnet\\library-packs\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "DevExpress.ExpressApp.Objects",
+      "targetGraphs": [
+        "net8.0"
+      ]
     }
   ]
 }

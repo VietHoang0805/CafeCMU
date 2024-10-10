@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Components.Server.Circuits;
 using DevExpress.ExpressApp.Xpo;
 using Cafe.Blazor.Server.Services;
 using DevExpress.Persistent.BaseImpl.PermissionPolicy;
-using DevExpress.ExpressApp.Core;
 
 namespace Cafe.Blazor.Server;
 
@@ -61,6 +60,8 @@ public class Startup {
                 .AddNonPersistent();
             builder.Security
                 .UseIntegratedMode(options => {
+                    options.Lockout.Enabled = true;
+
                     options.RoleType = typeof(PermissionPolicyRole);
                     // ApplicationUser descends from PermissionPolicyUser and supports the OAuth authentication. For more information, refer to the following topic: https://docs.devexpress.com/eXpressAppFramework/402197
                     // If your application uses PermissionPolicyUser or a custom user type, set the UserType property as follows:
@@ -69,12 +70,24 @@ public class Startup {
                     // If you use PermissionPolicyUser or a custom user type, comment out the following line:
                     options.UserLoginInfoType = typeof(Cafe.Module.BusinessObjects.ApplicationUserLoginInfo);
                     options.UseXpoPermissionsCaching();
+                    options.Events.OnSecurityStrategyCreated += securityStrategy => {
+                        // Use the 'PermissionsReloadMode.NoCache' option to load the most recent permissions from the database once
+                        // for every Session instance when secured data is accessed through this instance for the first time.
+                        // Use the 'PermissionsReloadMode.CacheOnFirstAccess' option to reduce the number of database queries.
+                        // In this case, permission requests are loaded and cached when secured data is accessed for the first time
+                        // and used until the current user logs out. 
+                        // See the following article for more details: https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Security.SecurityStrategy.PermissionsReloadMode.
+                        ((SecurityStrategy)securityStrategy).PermissionsReloadMode = PermissionsReloadMode.NoCache;
+                    };
                 })
                 .AddPasswordAuthentication(options => {
                     options.IsSupportChangePassword = true;
                 });
         });
-        services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options => {
+        var authentication = services.AddAuthentication(options => {
+            options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        });
+        authentication.AddCookie(options => {
             options.LoginPath = "/LoginPage";
         });
     }

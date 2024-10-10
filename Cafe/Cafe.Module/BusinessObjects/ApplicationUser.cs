@@ -9,8 +9,23 @@ namespace Cafe.Module.BusinessObjects;
 
 [MapInheritance(MapInheritanceType.ParentTable)]
 [DefaultProperty(nameof(UserName))]
-public class ApplicationUser : PermissionPolicyUser, ISecurityUserWithLoginInfo {
+public class ApplicationUser : PermissionPolicyUser, ISecurityUserWithLoginInfo, ISecurityUserLockout {
+    private int accessFailedCount;
+    private DateTime lockoutEnd;
+
     public ApplicationUser(Session session) : base(session) { }
+
+    [Browsable(false)]
+    public int AccessFailedCount {
+        get { return accessFailedCount; }
+        set { SetPropertyValue(nameof(AccessFailedCount), ref accessFailedCount, value); }
+    }
+
+    [Browsable(false)]
+    public DateTime LockoutEnd {
+        get { return lockoutEnd; }
+        set { SetPropertyValue(nameof(LockoutEnd), ref lockoutEnd, value); }
+    }
 
     [Browsable(false)]
     [Aggregated, Association("User-LoginInfo")]

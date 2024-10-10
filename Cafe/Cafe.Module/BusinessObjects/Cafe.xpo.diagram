@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<visualDesignerDiagram dslVersion="1.0.0.0" Id="ce7b3f08-ccea-4792-938e-18f9fe8e3821" absoluteBounds="0, 0, 11, 8.5" name="Cafe">
-  <dataBaseObjectModelMoniker Id="2de23d0b-069f-4ea3-be64-14fa6836b2a0" />
+<visualDesignerDiagram dslVersion="1.0.0.0" Id="e9798a50-869e-4789-88ac-5764169b8e73" absoluteBounds="0, 0, 12.5, 8.5" name="Cafe">
+  <dataBaseObjectModelMoniker Id="9fc12963-95af-48be-b2c2-55b6b5a651b1" />
   <nestedChildShapes>
-    <xpObjectShape Id="dbd29fdb-fcd8-4ab2-a2d9-050c1a623408" absoluteBounds="5, 2.875, 1.5, 1.3704703776041658">
-      <xpObjectMoniker Id="566e565f-e737-4839-8cbc-d5940b44e632" />
+    <xpObjectShape Id="3b3a719f-289a-42af-80e9-ce4cf5d9d301" absoluteBounds="10.75, 2.875, 1.5, 1.1781689453125002">
+      <xpObjectMoniker Id="635b47cb-dda8-4325-a8e2-99594f0f562e" />
       <nestedChildShapes>
-        <elementListCompartment Id="28e1344b-1b5a-4a34-8c9e-946419c7ceb8" absoluteBounds="5.015, 3.185, 1.4700000000000002, 0.44169108072916663" name="Fields" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="5eb3a149-dee3-4f92-9189-9eacb0e005ac" absoluteBounds="5.015, 3.6366910807291664, 1.4700000000000002, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
-        <elementListCompartment Id="b13651ce-2eee-43ce-9e7e-5d65aabf99a4" absoluteBounds="5.015, 3.8960807291666666, 1.4700000000000002, 0.2493896484375" name="Collections" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="76c2eeb2-7cc0-4145-b038-927b0a2536b5" absoluteBounds="10.765, 3.185, 1.4700000000000002, 0.24938964843750006" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="cb6892b1-99a6-4134-9c80-ab16c0843049" absoluteBounds="10.765, 3.4443896484375003, 1.4700000000000002, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="510ffc26-08c3-4c6d-ad0f-4b07c9dd1b1e" absoluteBounds="10.765, 3.703779296875, 1.4700000000000002, 0.2493896484375" name="Collections" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </xpObjectShape>
   </nestedChildShapes>
